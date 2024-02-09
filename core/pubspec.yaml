@@ -1,0 +1,56 @@
+name: core
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  data:
+    path: ../data
+  domain:
+    path: ../domain
+
+  bloc_concurrency: ^0.2.2
+
+  connectivity_plus: ^5.0.2
+
+  dio: ^5.4.0
+
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.3
+
+  get_it: ^7.6.4
+
+  logger: ^2.0.2+1
+
+  flutter_secure_storage: ^9.0.0
+
+  talker_flutter: ^3.5.7
+
+  talker_dio_logger: ^2.3.4
+
+  talker: ^3.1.7
+
+  shared_preferences: ^2.2.2
+
+  shared_preferences_android: ^2.2.1
+
+  shared_preferences_ios: ^2.1.1
+  flutter_dotenv: ^5.1.0
+  internet_connection_checker: ^1.0.0+1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  isar_generator: ^3.1.0+1
+
+flutter:
